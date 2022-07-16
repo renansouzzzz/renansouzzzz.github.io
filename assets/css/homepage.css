@@ -4,6 +4,28 @@ body {
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 14px;
+    border: 2px groove #000000;
+  }
+
   .jumbotron {
     margin-top: 170px;
     background-image: url('https://www.ppt-backgrounds.net/thumbs/grunge-black-hd-black-dark-flowers-grunge-grey---image-keynote.jpeg');
