@@ -6,7 +6,7 @@ body {
 
   .jumbotron {
     margin-top: 170px;
-    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000');
+    background-image: url('https://www.ppt-backgrounds.net/thumbs/grunge-black-hd-black-dark-flowers-grunge-grey---image-keynote.jpeg');
   }
 
   .div2 {
@@ -62,6 +62,10 @@ body {
   .img-git,
   .img-azure {
     width: 75px;
+  }
+
+  .display-3{
+    color: azure;
   }
 
 
